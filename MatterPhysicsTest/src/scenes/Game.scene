@@ -1,0 +1,98 @@
+{
+    "id": "b6f05df9-2616-4e8f-90ba-888d383272f4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "snapWidth": 64,
+        "snapHeight": 64,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Game",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderX": 1,
+        "borderY": 1,
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "a887b08c-6ba0-403c-a93f-0dd08f5dc76b",
+            "label": "ground_1",
+            "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
+            "layerName": "ground",
+            "tilesets": [
+                "iso-64x64-outside",
+                "singleskele",
+                "ship3"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "5963a3ba-e45e-4f5b-bede-59813b218749",
+            "label": "skele_1",
+            "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
+            "layerName": "skele",
+            "tilesets": [
+                "iso-64x64-outside",
+                "singleskele",
+                "ship3"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "a466ec6f-5a8b-43d5-9b55-edf7ce0913ff",
+            "label": "ships_1",
+            "y": -960,
+            "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
+            "layerName": "ships",
+            "tilesets": [
+                "iso-64x64-outside",
+                "singleskele",
+                "ship3"
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "c757bdca-386d-4cdd-898a-6214e810df14",
+            "type": "Keyboard.Key",
+            "label": "keyboard_key",
+            "keyCode": "D"
+        },
+        {
+            "id": "e28c421e-b80d-4938-97bb-454babb95d79",
+            "type": "Keyboard.Key",
+            "label": "keyboard_key_1",
+            "keyCode": "A"
+        },
+        {
+            "id": "04e3e257-60be-4d07-98b8-4d63c02136f1",
+            "type": "Tilemap",
+            "label": "matterphysics",
+            "key": "matterphysics",
+            "tilesets": [
+                {
+                    "name": "iso-64x64-outside",
+                    "imageKey": "iso-64x64-outside"
+                },
+                {
+                    "name": "singleskele",
+                    "imageKey": "singleskele"
+                },
+                {
+                    "name": "ship3",
+                    "imageKey": "ship3"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
