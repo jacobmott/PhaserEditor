@@ -1,0 +1,52 @@
+{
+    "id": "5acdc5cf-44cd-4097-adbe-2e37eb5acd3b",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Scene",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ArcadeImage",
+            "id": "c6b21a80-6917-4b57-84e1-cf49fc0e9f58",
+            "label": "arcadeimage_1",
+            "texture": {
+                "key": "FufuSuperDino"
+            },
+            "x": 311,
+            "y": 383,
+            "bodyGeometry": 0,
+            "radius": 126,
+            "body.width": 128,
+            "body.height": 128
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "9f62bec8-14c2-4b80-9198-7e606d1db336",
+            "label": "arcadeimage_2",
+            "texture": {
+                "key": "ground"
+            },
+            "x": 638,
+            "y": 635,
+            "scaleX": 1.305785619429478,
+            "scaleY": 0.656756091303812,
+            "physicsType": 1,
+            "body.width": 1050,
+            "body.height": 340
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

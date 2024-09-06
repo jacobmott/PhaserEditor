@@ -1,0 +1,274 @@
+{
+    "id": "d02b01fa-28a2-4f1f-870e-6f3a147914eb",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "FirstProjectMain",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "07d9062c-4cef-408d-9945-290a3c4f47b9",
+            "label": "hedgehog",
+            "scope": "CLASS",
+            "texture": {
+                "key": "hedgehog"
+            },
+            "x": 523,
+            "y": 458,
+            "scaleX": 0.9715353276036582,
+            "scaleY": 0.9715353276036582,
+            "ArcadeComponent.active": true,
+            "moves": false,
+            "body.width": 184,
+            "body.height": 212
+        },
+        {
+            "type": "Image",
+            "id": "8fb746a2-a6ed-4dd5-8d77-3d689fcf52f2",
+            "label": "ground_dark_cloud",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 182,
+            "y": 466,
+            "scaleX": 0.81209018292158,
+            "scaleY": 0.81209018292158,
+            "tintTopLeft": "#265c42",
+            "tintTopRight": "#265c42",
+            "tintBottomLeft": "#265c42",
+            "tintBottomRight": "#265c42"
+        },
+        {
+            "type": "Image",
+            "id": "d8fe7b79-9a38-46b1-8a53-00c3eb5391b7",
+            "label": "ground_dark_cloud_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 791,
+            "y": 464,
+            "scaleX": 0.81209018292158,
+            "scaleY": 0.81209018292158,
+            "tintTopLeft": "#265c42",
+            "tintTopRight": "#265c42",
+            "tintBottomLeft": "#265c42",
+            "tintBottomRight": "#265c42"
+        },
+        {
+            "type": "Image",
+            "id": "1c83dbc8-0ff9-4666-9604-2f391d8ab1b1",
+            "label": "ground_dark_cloud_1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 527,
+            "y": 459,
+            "scaleX": 0.81209018292158,
+            "scaleY": 0.81209018292158,
+            "tintTopLeft": "#265c42",
+            "tintTopRight": "#265c42",
+            "tintBottomLeft": "#265c42",
+            "tintBottomRight": "#265c42"
+        },
+        {
+            "type": "Image",
+            "id": "81ef43de-71da-4ce1-9caa-3f8474736269",
+            "label": "ground_dark_cloud_4",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 1123,
+            "y": 459,
+            "scaleX": 0.81209018292158,
+            "scaleY": 0.81209018292158,
+            "tintTopLeft": "#265c42",
+            "tintTopRight": "#265c42",
+            "tintBottomLeft": "#265c42",
+            "tintBottomRight": "#265c42"
+        },
+        {
+            "type": "Rectangle",
+            "id": "5510deeb-97f1-43d2-bc5b-92b12c6aa4a9",
+            "label": "rectangle_1",
+            "x": 631,
+            "y": 616,
+            "scaleX": 10.457476836820037,
+            "scaleY": -1.8901163305277446,
+            "isFilled": true,
+            "fillColor": "#3e8948",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "33d632a7-8ecc-4fef-8fca-0089c974c794",
+            "label": "realistic_white_cloud",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 134,
+            "y": 69,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "55929176-22d9-46b8-a311-e26764819eb3",
+            "label": "realistic_white_cloud_1",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 1090,
+            "y": 144,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "3a4ee379-ce67-4464-866b-f4ef10d15764",
+            "label": "realistic_white_cloud_2",
+            "scope": "CLASS",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 555,
+            "y": 170,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "465038bc-810c-4cda-874e-953fa8e74236",
+            "label": "ground_white_cloud_3",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 115,
+            "y": 472,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "tintTopLeft": "#63c74d",
+            "tintTopRight": "#63c74d",
+            "tintBottomLeft": "#63c74d",
+            "tintBottomRight": "#63c74d"
+        },
+        {
+            "type": "Image",
+            "id": "1d30baea-de58-451e-9180-eeeff4f7cd26",
+            "label": "ground_white_cloud",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 1121,
+            "y": 491,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "tintTopLeft": "#63c74d",
+            "tintTopRight": "#63c74d",
+            "tintBottomLeft": "#63c74d",
+            "tintBottomRight": "#63c74d"
+        },
+        {
+            "type": "Image",
+            "id": "d3417224-b2db-4144-b17e-1e7b412106f8",
+            "label": "ground_white_cloud_1",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 391,
+            "y": 483,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "tintTopLeft": "#63c74d",
+            "tintTopRight": "#63c74d",
+            "tintBottomLeft": "#63c74d",
+            "tintBottomRight": "#63c74d"
+        },
+        {
+            "type": "Image",
+            "id": "a508e68c-7346-423a-9037-d9789ea16f94",
+            "label": "ground_white_cloud_2",
+            "texture": {
+                "key": "realistic-white-cloud"
+            },
+            "x": 790,
+            "y": 483,
+            "scaleX": 0.5,
+            "scaleY": 0.5,
+            "tintTopLeft": "#63c74d",
+            "tintTopRight": "#63c74d",
+            "tintBottomLeft": "#63c74d",
+            "tintBottomRight": "#63c74d"
+        },
+        {
+            "type": "Image",
+            "id": "71617980-5fcc-46d0-b642-ea025212fe64",
+            "label": "apple",
+            "scope": "CLASS",
+            "texture": {
+                "key": "apple"
+            },
+            "x": 503,
+            "y": -14,
+            "ArcadeComponent.active": true,
+            "body.width": 100,
+            "body.height": 119
+        },
+        {
+            "type": "Text",
+            "id": "17d03c1d-bada-421b-a922-9ae3ed260280",
+            "label": "text_1",
+            "scope": "CLASS",
+            "x": 1057,
+            "y": 10,
+            "text": "Score:",
+            "fontSize": "48px"
+        },
+        {
+            "type": "Text",
+            "id": "385168a6-7a1e-40e0-8b44-f9e643504424",
+            "label": "text",
+            "scope": "CLASS",
+            "x": 1231,
+            "y": 14,
+            "text": "0",
+            "fontSize": "48px"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "fc9ae0c8-2950-42cd-a23e-45198d978877",
+            "type": "Keyboard.Key",
+            "label": "RightKey",
+            "keyCode": "RIGHT"
+        },
+        {
+            "id": "3ee62667-da00-4757-83d4-f8784d8522fa",
+            "type": "Collider",
+            "label": "collider",
+            "object1": "hedgehog",
+            "object2": "apple",
+            "overlapOnly": true,
+            "collideCallback": "this.collide"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

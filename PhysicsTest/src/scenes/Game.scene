@@ -1,0 +1,79 @@
+{
+    "id": "b6f05df9-2616-4e8f-90ba-888d383272f4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Game",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "19325bbf-6966-41b6-994d-0abb10899e59",
+            "label": "fufuSuperDino",
+            "scope": "CLASS",
+            "texture": {
+                "key": "FufuSuperDino"
+            },
+            "x": 135,
+            "y": 536,
+            "scaleX": 0.5142123582324836,
+            "scaleY": 0.5142123582324836,
+            "ArcadeComponent.active": true,
+            "radius": 141,
+            "body.width": 269,
+            "body.height": 267,
+            "body.offset.x": -15,
+            "body.offset.y": -19
+        },
+        {
+            "type": "Image",
+            "id": "1b260e84-ea4e-4b74-bd93-fbdb5ae24235",
+            "label": "ground",
+            "scope": "CLASS",
+            "texture": {
+                "key": "ground"
+            },
+            "x": 643,
+            "y": 683,
+            "scaleX": 1.2827096216090252,
+            "scaleY": 0.24471428064095632,
+            "ArcadeComponent.active": true,
+            "physicsType": 1,
+            "body.width": 1050,
+            "body.height": 340
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "c757bdca-386d-4cdd-898a-6214e810df14",
+            "type": "Keyboard.Key",
+            "label": "keyboard_key",
+            "keyCode": "D"
+        },
+        {
+            "id": "7ddcfb18-fa69-4b99-904b-2ffca35cbe0e",
+            "type": "Collider",
+            "label": "collider",
+            "object1": "fufuSuperDino",
+            "object2": "ground"
+        },
+        {
+            "id": "e28c421e-b80d-4938-97bb-454babb95d79",
+            "type": "Keyboard.Key",
+            "label": "keyboard_key_1",
+            "keyCode": "A"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
