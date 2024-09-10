@@ -1,0 +1,101 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 3840,
+        "borderHeight": 2160
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "5c228da6-971a-4347-84e8-9f62464ba76d",
+            "label": "text",
+            "x": 3231,
+            "y": 606,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Phaser 3 + Spine + Phaser Editor v4\nWebpack + TypeScript",
+            "align": "center",
+            "fontFamily": "Arial",
+            "fontSize": "3em",
+            "list": [
+                {
+                    "prefabId": "7028a0e2-cd14-44b7-b2a4-68dac16ece00",
+                    "id": "fd4f3e0e-d166-4cce-be6a-61909e10e483",
+                    "label": "onAwakeScript",
+                    "list": [
+                        {
+                            "prefabId": "3d337935-cdca-4937-9126-9f75bc2486de",
+                            "id": "58ae4e4b-8683-483f-b75a-939405901a2e",
+                            "unlock": [
+                                "from"
+                            ],
+                            "label": "moveInSceneActionScript",
+                            "from": "BOTTOM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "78dd1702-89cc-4d5b-915c-3850924e3fb6",
+            "label": "goblin",
+            "components": [
+                "StartAnimationComp"
+            ],
+            "StartAnimationComp.animationName": "walk",
+            "dataKey": "goblins",
+            "atlasKey": "goblins-atlas",
+            "skinName": "goblin",
+            "bpType": 1,
+            "x": 3045,
+            "y": 510
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "22248c6b-a162-4500-bf73-82c778bde528",
+            "label": "goblinGirl",
+            "components": [
+                "StartAnimationComp"
+            ],
+            "StartAnimationComp.animationName": "walk",
+            "dataKey": "goblins",
+            "atlasKey": "goblins-atlas",
+            "skinName": "goblingirl",
+            "bpType": 1,
+            "x": 3391,
+            "y": 510,
+            "scaleX": -1
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "05c56720-9ccc-41f2-84a0-d54a6dc538d6",
+            "label": "spinegameobject_1",
+            "components": [
+                "StartAnimationComp"
+            ],
+            "StartAnimationComp.animationName": "animation",
+            "dataKey": "Ship3AllLayersAlignedCenter",
+            "atlasKey": "Ship3AllLayersAlignedCenter-atlas",
+            "skinName": "default",
+            "x": 595,
+            "y": 399,
+            "scaleX": 0.2849951581767961,
+            "scaleY": 0.2849951581767961
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

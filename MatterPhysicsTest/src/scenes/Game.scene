@@ -21,6 +21,7 @@
             "type": "TilemapLayer",
             "id": "a887b08c-6ba0-403c-a93f-0dd08f5dc76b",
             "label": "ground_1",
+            "scope": "CLASS",
             "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
             "layerName": "ground",
             "tilesets": [
@@ -33,6 +34,7 @@
             "type": "TilemapLayer",
             "id": "5963a3ba-e45e-4f5b-bede-59813b218749",
             "label": "skele_1",
+            "scope": "CLASS",
             "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
             "layerName": "skele",
             "tilesets": [
@@ -45,6 +47,7 @@
             "type": "TilemapLayer",
             "id": "a466ec6f-5a8b-43d5-9b55-edf7ce0913ff",
             "label": "ships_1",
+            "scope": "CLASS",
             "y": -960,
             "tilemapId": "04e3e257-60be-4d07-98b8-4d63c02136f1",
             "layerName": "ships",
@@ -53,6 +56,25 @@
                 "singleskele",
                 "ship3"
             ]
+        },
+        {
+            "type": "Image",
+            "id": "958d010c-a439-4739-a439-be730df66b86",
+            "label": "image_1",
+            "scope": "CLASS",
+            "texture": {},
+            "x": -326,
+            "y": 10635
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "9ba92ab8-7630-421c-9e00-63b1f5bd7bff",
+            "label": "spinegameobject_1",
+            "dataKey": "Ship3AllLayersAlignedCenter",
+            "atlasKey": "Ship3AllLayersAlignedCenter-atlas",
+            "skinName": "default",
+            "x": -119,
+            "y": 11036
         }
     ],
     "plainObjects": [
